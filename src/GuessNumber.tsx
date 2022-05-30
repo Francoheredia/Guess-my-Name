@@ -3,8 +3,8 @@ import randomGenerator from './helpers/randomGenerator';
 import verifyNumber from './helpers/verifyNumber';
 
 const GuessNumber = () => {
-  const [inputValue, setinputValue] = useState<String>('');
-  const [numberSecret, setNumberSecret] = useState<Number | String>(
+  const [inputValue, setinputValue] = useState<String | any>('');
+  const [numberSecret, setNumberSecret] = useState<Number | String | any>(
     randomGenerator()
   );
   const [winStatus, setWinStatus] = useState<Boolean | null>(null);
