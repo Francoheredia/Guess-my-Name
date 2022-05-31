@@ -3,12 +3,12 @@
 
 "Guess My Name" es un sencillo juego de Adivinanzas el cual consiste en adivinar el numero secreto, tienes 20 posibilidades para adivinar el numero que sera desde el 1 al 20 , tendras indicadores que si fallas te diran que tan proximo estas al numero, tambien tendras un Highscore para poder competir con tus amigos 
 
-[![rgNJyL.png](https://i.im.ge/2022/05/31/rgNJyL.png)](https://im.ge/i/rgNJyL)
+[![rgNJyL.png](https://i.im.ge/2022/05/31/rgNJyL.png)](https://im.ge/i/rgNJyL),
 
-[![rgPtAc.png](https://i.im.ge/2022/05/31/rgPtAc.png)](https://im.ge/i/rgPtAc)
+[![rgPtAc.png](https://i.im.ge/2022/05/31/rgPtAc.png)](https://im.ge/i/rgPtAc),
 
 
-[![rgNBOx.png](https://i.im.ge/2022/05/31/rgNBOx.png)](https://im.ge/i/rgNBOx)
+[![rgNBOx.png](https://i.im.ge/2022/05/31/rgNBOx.png)](https://im.ge/i/rgNBOx),
 
 ## Tecnologías 
 
