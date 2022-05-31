@@ -5,8 +5,7 @@
 
 [![rgNJyL.png](https://i.im.ge/2022/05/31/rgNJyL.png)](https://im.ge/i/rgNJyL)
 
-
-[![rgNnzG.png](https://i.im.ge/2022/05/31/rgNnzG.png)](https://im.ge/i/rgNnzG)
+[![rgPtAc.png](https://i.im.ge/2022/05/31/rgPtAc.png)](https://im.ge/i/rgPtAc)
 
 
 [![rgNBOx.png](https://i.im.ge/2022/05/31/rgNBOx.png)](https://im.ge/i/rgNBOx)
