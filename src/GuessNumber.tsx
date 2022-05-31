@@ -3,14 +3,20 @@ import randomGenerator from './helpers/randomGenerator';
 import verifyNumber from './helpers/verifyNumber';
 
 const GuessNumber = () => {
-  const [inputValue, setinputValue] = useState<String | any>('');
+  const [inputValue, setinputValue] = useState<String | Number>('');
   const [numberSecret, setNumberSecret] = useState<Number | String | any>(
     randomGenerator()
   );
+  const [ErrorInput, setErrorInput] = useState<Boolean>(false);
   const [winStatus, setWinStatus] = useState<Boolean | null>(null);
   const [score, setScore] = useState<Number | any>(20);
   const handleOnChange = ({ target }: React.FocusEvent<HTMLInputElement>) => {
-    setinputValue(target.value);
+    if (Number(target.value) > 20 || Number(target.value) < 0) {
+      setErrorInput(true);
+    } else {
+      setErrorInput(false);
+      setinputValue(target.value);
+    }
   };
   const [message, setMessage] = useState<String>('Start guessing...');
   const [highscore, setHighscore] = useState<Number | any>(0);
@@ -62,12 +68,16 @@ const GuessNumber = () => {
         <button className="btn again" onClick={handleAgain}>
           Again!
         </button>
+        <p className="between">(Between 1 and 20)</p>
         <div className="number">
           {winStatus === null ? '?' : !winStatus ? numberSecret : numberSecret}
         </div>
       </header>
       <main>
         <section className="left">
+          {ErrorInput && (
+            <p className="errorInput">{'only numbers from 1 to 20'}</p>
+          )}
           <input type="number" className="guess" onChange={handleOnChange} />
 
           <button className="btn check" onClick={verifyGaming}>

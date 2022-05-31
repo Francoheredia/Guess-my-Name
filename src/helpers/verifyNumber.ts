@@ -1,6 +1,6 @@
 const verifyNumber = (
   secret: Number | String,
-  number: String | null
+  number: String | null | Number
 ): boolean => {
   const parse = Number(number);
 
