@@ -10,12 +10,13 @@
 [![rgNBOx.png](https://i.im.ge/2022/05/31/rgNBOx.png)](https://im.ge/i/rgNBOx)
 
 ## Tecnologías 
-
+<div style="display: inline_block">
 <img align="center" alt="Rafa-Ts" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   <img align="center" alt="Rafa-React" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
   <img align="center" alt="Rafa-Csharp" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg">
   <img align="center" alt="Rafa-HTML" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
 
+ </div>
 
 
 a href = "https://www.linkedin.com/in/francoherediadev/"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
